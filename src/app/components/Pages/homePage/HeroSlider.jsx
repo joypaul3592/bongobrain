@@ -4,6 +4,10 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import heroImg from '../../../assets/image/home/homeimg2.png'
+import heroImg2 from '../../../assets/image/home/homeimg3.png'
+import heroImg3 from '../../../assets/image/home/homeimg4.png'
+import heroImg5 from '../../../assets/image/home/heroimg5.png'
+import heroImg6 from '../../../assets/image/home/heroimg6.png'
 import Image from 'next/image';
 
 export default function HeroSlider() {
@@ -58,13 +62,16 @@ export default function HeroSlider() {
                     <Image className=' w-10/12  mx-auto ' src={heroImg} alt='heroImg' />
                 </div>
                 <div data-aos="zoom-out-up" className="text-white lg:h-[22rem] overflow-hidden border-b border-b-green-400 ">
-                    <Image className=' w-10/12  mx-auto ' src={heroImg} alt='heroImg' />
+                    <Image className=' w-10/12  mx-auto ' src={heroImg2} alt='heroImg' />
                 </div>
                 <div data-aos="zoom-out-up" className="text-white lg:h-[22rem] overflow-hidden border-b border-b-green-400 ">
-                    <Image className=' w-10/12  mx-auto ' src={heroImg} alt='heroImg' />
+                    <Image className=' w-10/12  mx-auto ' src={heroImg3} alt='heroImg' />
                 </div>
                 <div data-aos="zoom-out-up" className="text-white lg:h-[22rem] overflow-hidden border-b border-b-green-400 ">
-                    <Image className=' w-10/12  mx-auto ' src={heroImg} alt='heroImg' />
+                    <Image className=' w-10/12  mx-auto ' src={heroImg5} alt='heroImg' />
+                </div>
+                <div data-aos="zoom-out-up" className="text-white lg:h-[22rem] overflow-hidden border-b border-b-green-400 ">
+                    <Image className=' w-10/12  mx-auto ' src={heroImg6} alt='heroImg' />
                 </div>
             </Slider>
         </div>
