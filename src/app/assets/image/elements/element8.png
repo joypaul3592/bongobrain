@@ -1,0 +1,815 @@
+h_to_generate_accessor_95135": "找不到要為其產生存取子的屬性",
+  "Could_not_resolve_the_path_0_with_the_extensions_Colon_1_6231": "無法解析具有下列延伸模組的路徑 '{0}': {1}。",
+  "Could_not_write_file_0_Colon_1_5033": "無法編寫檔案 '{0}': {1}。",
+  "Create_source_map_files_for_emitted_JavaScript_files_6694": "建立發出 JavaScript 檔案的來源對應檔。",
+  "Create_sourcemaps_for_d_ts_files_6614": "為 d.ts 檔案建立 sourcemap。",
+  "Creates_a_tsconfig_json_with_the_recommended_settings_in_the_working_directory_6926": "使用建議設定在工作目錄中建立 tsconfig.json。",
+  "DIRECTORY_6038": "目錄",
+  "Declaration_augments_declaration_in_another_file_This_cannot_be_serialized_6232": "宣告會讓另一個檔案中的宣告增加。這無法序列化。",
+  "Declaration_emit_for_this_file_requires_using_private_name_0_An_explicit_type_annotation_may_unblock_9005": "此檔案的宣告發出必須使用私人名稱 '{0}'。明確的型別註解可能會解除封鎖宣告發出。",
+  "Declaration_emit_for_this_file_requires_using_private_name_0_from_module_1_An_explicit_type_annotati_9006": "此檔案的宣告發出必須使用來自模組 '{1}' 的私人名稱 '{0}'。明確的型別註解可能會解除封鎖宣告發出。",
+  "Declaration_expected_1146": "必須是宣告。",
+  "Declaration_name_conflicts_with_built_in_global_identifier_0_2397": "宣告名稱與內建全域識別碼 '{0}' 衝突。",
+  "Declaration_or_statement_expected_1128": "必須是宣告或陳述式。",
+  "Declaration_or_statement_expected_This_follows_a_block_of_statements_so_if_you_intended_to_write_a_d_2809": "必須是宣告或陳述式。這個 '=' 會跟著陳述式區塊，因此如果您想要撰寫解構指派，就可能需要在整個指派的前後加上括弧。",
+  "Declarations_with_definite_assignment_assertions_must_also_have_type_annotations_1264": "包含明確指派判斷提示的宣告也必須包含類型註釋。",
+  "Declarations_with_initializers_cannot_also_have_definite_assignment_assertions_1263": "包含初始設定式的宣告不得同時包含明確指派判斷提示。",
+  "Declare_a_private_field_named_0_90053": "宣告名為 '{0}' 的私人欄位。",
+  "Declare_method_0_90023": "宣告方法 '{0}'",
+  "Declare_private_method_0_90038": "宣告私人方法 '{0}'",
+  "Declare_private_property_0_90035": "宣告私人屬性 '{0}'",
+  "Declare_property_0_90016": "宣告屬性 '{0}'",
+  "Declare_static_method_0_90024": "宣告靜態方法 '{0}'",
+  "Declare_static_property_0_90027": "宣告靜態屬性 '{0}'",
+  "Decorator_function_return_type_0_is_not_assignable_to_type_1_1270": "裝飾項目函式傳回類型 '{0}' 無法指派給類型 '{1}'。",
+  "Decorator_function_return_type_is_0_but_is_expected_to_be_void_or_any_1271": "裝飾項目函式傳回類型是 '{0}'，但必須是 'void' 或 'any'。",
+  "Decorators_are_not_valid_here_1206": "裝飾項目在此處無效。",
+  "Decorators_cannot_be_applied_to_multiple_get_Slashset_accessors_of_the_same_name_1207": "無法將裝飾項目套用至多個同名的 get/set 存取子。",
+  "Decorators_may_not_be_applied_to_this_parameters_1433": "裝飾項目無法套用至 'this' 參數。",
+  "Decorators_must_precede_the_name_and_all_keywords_of_property_declarations_1436": "裝飾項目必須在屬性宣告的名稱和所有關鍵詞之前。",
+  "Default_catch_clause_variables_as_unknown_instead_of_any_6803": "預設 catch 子句變數為 'unknown' 而非 'any'。",
+  "Default_export_of_the_module_has_or_is_using_private_name_0_4082": "模組的預設匯出具有或正在使用私用名稱 '{0}'。",
+  "Default_library_1424": "預設程式庫",
+  "Default_library_for_target_0_1425": "目標 '{0}' 的預設程式庫",
+  "Definitions_of_the_following_identifiers_conflict_with_those_in_another_file_Colon_0_6200": "下列識別碼的定義與其他檔案中的定義衝突: {0}",
+  "Delete_all_unused_declarations_95024": "刪除所有未使用的宣告",
+  "Delete_all_unused_imports_95147": "刪除所有未使用的匯入",
+  "Delete_all_unused_param_tags_95172": "刪除所有未使用的 '@param' 標籤",
+  "Delete_the_outputs_of_all_projects_6365": "刪除所有專案的輸出。",
+  "Delete_unused_param_tag_0_95171": "刪除未使用的 '@param' 標記 '{0}'",
+  "Deprecated_Use_jsxFactory_instead_Specify_the_object_invoked_for_createElement_when_targeting_react__6084": "[即將淘汰] 請改用 '--jsxFactory'。當目標為 'react' JSX 發出時，為 createElement 指定所叫用的物件",
+  "Deprecated_Use_outFile_instead_Concatenate_and_emit_output_to_single_file_6170": "[即將淘汰] 請改用 '--outFile'。 串連輸出並將其發出到單一檔案",
+  "Deprecated_Use_skipLibCheck_instead_Skip_type_checking_of_default_library_declaration_files_6160": "[即將淘汰] 請改用 '--skipLibCheck'。跳過預設程式庫宣告檔案的類型檢查。",
+  "Deprecated_setting_Use_outFile_instead_6677": "已淘汰的設定值。請改用 'outFile'。",
+  "Did_you_forget_to_use_await_2773": "忘了要使用 'await' 嗎?",
+  "Did_you_mean_0_1369": "您指 '{0}' 嗎?",
+  "Did_you_mean_for_0_to_be_constrained_to_type_new_args_Colon_any_1_2735": "您是要將 '{0}' 限制為類型 'new (...args: any[]) => {1}' 嗎?",
+  "Did_you_mean_to_call_this_expression_6212": "您是要呼叫此運算式嗎?",
+  "Did_you_mean_to_mark_this_function_as_async_1356": "您是要將此函式標記為 'async' 嗎?",
+  "Did_you_mean_to_use_a_Colon_An_can_only_follow_a_property_name_when_the_containing_object_literal_is_1312": "要使用 ':' 嗎? 當包含的物件常值是解構模式的一部分時，'=' 就只能位於屬性名稱後面。",
+  "Did_you_mean_to_use_new_with_this_expression_6213": "您是要對此運算式使用 'new' 嗎?",
+  "Digit_expected_1124": "必須是數字。",
+  "Directory_0_does_not_exist_skipping_all_lookups_in_it_6148": "目錄 '{0}' 不存在，將會跳過其中所有查閱。",
+  "Directory_0_has_no_containing_package_json_scope_Imports_will_not_resolve_6270": "目錄 '{0}' 不包含在 package.js 範圍內。將不會解析匯入。",
+  "Disable_adding_use_strict_directives_in_emitted_JavaScript_files_6669": "停用在發出的 JavaScript 檔案中新增 'use strict' 指示詞。",
+  "Disable_checking_for_this_file_90018": "停用此檔案的檢查",
+  "Disable_emitting_comments_6688": "停用發出註解。",
+  "Disable_emitting_declarations_that_have_internal_in_their_JSDoc_comments_6701": "停用其 JSDoc 註解中具有 '@internal' 的發出宣告。",
+  "Disable_emitting_files_from_a_compilation_6660": "停用從編譯發出檔案。",
+  "Disable_emitting_files_if_any_type_checking_errors_are_reported_6662": "如果報告任何型別檢查錯誤，則停用發出的檔案。",
+  "Disable_erasing_const_enum_declarations_in_generated_code_6682": "停用在產生的程式碼中抹除 'const enum' 宣告。",
+  "Disable_error_reporting_for_unreachable_code_6603": "停用無法執行到的程式碼錯誤報告。",
+  "Disable_error_reporting_for_unused_labels_6604": "停用未使用標籤的錯誤報表。",
+  "Disable_generating_custom_helper_functions_like_extends_in_compiled_output_6661": "停用在編譯輸出中產生自訂的協助程式函式，例如 '__extends'。",
+  "Disable_including_any_library_files_including_the_default_lib_d_ts_6670": "停用包括任何程式庫檔案，包括預設的 lib.d.ts。",
+  "Disable_loading_referenced_projects_6235": "停用載入參考的專案。",
+  "Disable_preferring_source_files_instead_of_declaration_files_when_referencing_composite_projects_6620": "參考複合專案時，停用偏好的來源檔案而不是宣告檔案。",
+  "Disable_reporting_of_excess_property_errors_during_the_creation_of_object_literals_6702": "在建立物件常值期間停用多餘屬性錯誤報告。",
+  "Disable_resolving_symlinks_to_their_realpath_This_correlates_to_the_same_flag_in_node_6683": "停用將 symlinks 解析為其 realpath。這與節點中的相同旗標有關。",
+  "Disable_size_limitations_on_JavaScript_projects_6162": "停用 JavaScript 專案的大小限制。",
+  "Disable_solution_searching_for_this_project_6224": "停用此專案的解決方案搜尋。",
+  "Disable_strict_checking_of_generic_signatures_in_function_types_6673": "停用函式類型中一般簽章的 Strict 檢查。",
+  "Disable_the_type_acquisition_for_JavaScript_projects_6625": "停用 JavaScript 專案的類型取得",
+  "Disable_truncating_types_in_error_messages_6663": "停用錯誤訊息中的截斷類型。",
+  "Disable_use_of_source_files_instead_of_declaration_files_from_referenced_projects_6221": "停用來源檔案，而非所參考專案中的宣告檔案。",
+  "Disable_wiping_the_console_in_watch_mode_6684": "停用在監看模式中抹除主控台。",
+  "Disables_inference_for_type_acquisition_by_looking_at_filenames_in_a_project_6616": "透過查看專案中的檔案名，停用型別推斷的取得。",
+  "Disallow_import_s_require_s_or_reference_s_from_expanding_the_number_of_files_TypeScript_should_add__6672": "不允許 import'、'require' 或 '<reference>' 擴充 TypeScript 應該加入專案的檔案數目。",
+  "Disallow_inconsistently_cased_references_to_the_same_file_6078": "不允許相同檔案大小寫不一致的參考。",
+  "Do_not_add_triple_slash_references_or_imported_modules_to_the_list_of_compiled_files_6159": "不要在編譯後的檔案清單中新增三道斜線的參考或匯入的模組。",
+  "Do_not_emit_comments_to_output_6009": "請勿將註解發出到輸出。",
+  "Do_not_emit_declarations_for_code_that_has_an_internal_annotation_6056": "請勿發出包含 '@internal' 註釋的程式碼宣告。",
+  "Do_not_emit_outputs_6010": "請勿發出輸出。",
+  "Do_not_emit_outputs_if_any_errors_were_reported_6008": "如果回報了任何錯誤，即不發出輸出。",
+  "Do_not_emit_use_strict_directives_in_module_output_6112": "請勿在模組輸出中發出 'use strict' 指示詞。",
+  "Do_not_erase_const_enum_declarations_in_generated_code_6007": "請勿清除產生之程式碼中的 const 列舉宣告。",
+  "Do_not_generate_custom_helper_functions_like_extends_in_compiled_output_6157": "不要在編譯後的輸出中產生自訂的協助程式函式，例如 '__extends'。",
+  "Do_not_include_the_default_library_file_lib_d_ts_6158": "不要包含預設程式庫檔案 (lib.d.ts)。",
+  "Do_not_report_errors_on_unreachable_code_6077": "請勿回報無法執行到之程式碼的錯誤。",
+  "Do_not_report_errors_on_unused_labels_6074": "請勿回報未使用之標籤的錯誤。",
+  "Do_not_resolve_the_real_path_of_symlinks_6013": "請勿解析符號連結的真實路徑。",
+  "Do_not_truncate_error_messages_6165": "不要截斷錯誤訊息。",
+  "Duplicate_function_implementation_2393": "函式實作重複。",
+  "Duplicate_identifier_0_2300": "識別碼 '{0}' 重複。",
+  "Duplicate_identifier_0_Compiler_reserves_name_1_in_top_level_scope_of_a_module_2441": "識別碼 '{0}' 重複。編譯器會將名稱 '{1}' 保留在模組的最上層範圍中。",
+  "Duplicate_identifier_0_Compiler_reserves_name_1_in_top_level_scope_of_a_module_containing_async_func_2529": "識別碼 '{0}' 重複。編譯器會將名稱 '{1}' 保留在含有非同步函式模組的最上層範圍中。",
+  "Duplicate_identifier_0_Compiler_reserves_name_1_when_emitting_super_references_in_static_initializer_2818": "識別碼 '{0}' 重複。在靜態初始設定式中發出 'super' 參考時，編譯器會保留名稱 '{1}'。",
+  "Duplicate_identifier_0_Compiler_uses_declaration_1_to_support_async_functions_2520": "識別碼 '{0}' 重複。編譯器會使用宣告 '{1}' 支援非同步函式。",
+  "Duplicate_identifier_0_Static_and_instance_elements_cannot_share_the_same_private_name_2804": "重複的識別碼 '{0}'。靜態與執行個體元素不得共用相同的私人名稱。",
+  "Duplicate_identifier_arguments_Compiler_uses_arguments_to_initialize_rest_parameters_2396": "識別碼 'arguments'' 重複。編譯器會使用 'arguments' 來初始化剩餘參數。",
+  "Duplicate_identifier_newTarget_Compiler_uses_variable_declaration_newTarget_to_capture_new_target_me_2543": "識別碼 '_newTarget' 重複。編譯器使用變數宣告 '_newTarget' 擷取 'new.target' 中繼屬性參考。",
+  "Duplicate_identifier_this_Compiler_uses_variable_declaration_this_to_capture_this_reference_2399": "識別碼 '_this' 重複。編譯器會使用變數宣告 '_this' 來擷取 'this' 參考。",
+  "Duplicate_index_signature_for_type_0_2374": "類型 '{0}' 的索引簽章重複。",
+  "Duplicate_label_0_1114": "標籤 '{0}' 重複。",
+  "Duplicate_property_0_2718": "屬性 '{0}' 重複。",
+  "Dynamic_import_s_specifier_must_be_of_type_string_but_here_has_type_0_7036": "動態匯入的指定名稱必須屬於類型 'string'，但這裡的類型為 '{0}'。",
+  "Dynamic_imports_are_only_supported_when_the_module_flag_is_set_to_es2020_es2022_esnext_commonjs_amd__1323": "只有在 '--module' 旗標設定為 'es2020'、'es2022'、'esnext'、'commonjs'、'amd'、'system'、'umd'、'node16' 或 'nodenext'，才支援動態匯入。",
+  "Dynamic_imports_can_only_accept_a_module_specifier_and_an_optional_assertion_as_arguments_1450": "動態匯入只能接受模組指定名稱和選擇性判斷提示來做為引數",
+  "Dynamic_imports_only_support_a_second_argument_when_the_module_option_is_set_to_esnext_node16_or_nod_1324": "當 '--module' 選項設定為 'esnext'、'node16' 或 'nodenext' 時，動態匯入只支援第二個引數。",
+  "Each_member_of_the_union_type_0_has_construct_signatures_but_none_of_those_signatures_are_compatible_2762": "等位型別 '{0}' 的每個成員都有建構簽章，但這些簽章都互不相容。",
+  "Each_member_of_the_union_type_0_has_signatures_but_none_of_those_signatures_are_compatible_with_each_2758": "等位型別 '{0}' 的每個成員都有簽章，但這些簽章都互不相容。",
+  "Editor_Support_6249": "編輯器支援",
+  "Element_implicitly_has_an_any_type_because_expression_of_type_0_can_t_be_used_to_index_type_1_7053": "因為 '{0}' 類型的運算式無法用於索引類型 '{1}'，所以項目隱含 'any' 類型。",
+  "Element_implicitly_has_an_any_type_because_index_expression_is_not_of_type_number_7015": "因為索引運算式不屬於類型 'number'，所以元素具有隱含 'any' 類型。",
+  "Element_implicitly_has_an_any_type_because_type_0_has_no_index_signature_7017": "元素隱含地擁有 'any' 類型，因為類型 '{0}' 不具索引簽章。",
+  "Element_implicitly_has_an_any_type_because_type_0_has_no_index_signature_Did_you_mean_to_call_1_7052": "因為類型 '{0}' 沒有索引簽章，所以項目隱含 'any' 類型。您是要呼叫 '{1}' 嗎?",
+  "Emit_6246": "發出",
+  "Emit_ECMAScript_standard_compliant_class_fields_6712": "發出 ECMAScript 標準相容類別欄位。",
+  "Emit_a_UTF_8_Byte_Order_Mark_BOM_in_the_beginning_of_output_files_6622": "在輸出檔的開頭發出 UTF-8 位元組順序標記 (BOM)。",
+  "Emit_a_single_file_with_source_maps_instead_of_having_a_separate_file_6151": "發出單一檔案包含來源對應，而不要使用個別的檔案。",
+  "Emit_a_v8_CPU_profile_of_the_compiler_run_for_debugging_6638": "發出用於偵錯的編譯器執行 v8 CPU 設定檔。",
+  "Emit_additional_JavaScript_to_ease_support_for_importing_CommonJS_modules_This_enables_allowSyntheti_6626": "發出其他 JavaScript，以輕鬆支援匯入 CommonJS 模組。這會啟用 'allowSyntheticDefaultImports' 進行類型相容性。",
+  "Emit_class_fields_with_Define_instead_of_Set_6222": "使用 Define 而非 Set 發出類別欄位。",
+  "Emit_design_type_metadata_for_decorated_declarations_in_source_files_6624": "發出來源檔案中修飾式宣告的設計型別中繼資料。",
+  "Emit_more_compliant_but_verbose_and_less_performant_JavaScript_for_iteration_6621": "針對反覆項目發出更符合規範，但具詳細資訊及較低效能 JavaScript。",
+  "Emit_the_source_alongside_the_sourcemaps_within_a_single_file_requires_inlineSourceMap_or_sourceMap__6152": "使用單一檔案發出來源與來源對應。必須設定 '--inlineSourceMap' 或 '--sourceMap'。",
+  "Enable_all_strict_type_checking_options_6180": "啟用所有 Strict 類型�t u=await tx({tree:e,parentParams:t,metadataItems:r,errorMetadataItem:n,getDynamicParamFromSegment:o,searchParams:i,errorConvention:a}),c=ej(),d=e$();try{d=await t$(u),c=await tT(u,s)}catch(e){l=e}return[l,c,d]}function tO(e){return"object"==typeof e&&null!==e&&"digest"in e&&"NEXT_NOT_FOUND"===e.digest}function tA({tree:e,pathname:t,trailingSlash:r,query:n,getDynamicParamFromSegment:o,appUsingSizeAdjustment:i,errorType:a,createDynamicallyTrackedSearchParams:s}){let l;let u={pathname:t.split("?")[0],trailingSlash:r},c=new Promise(e=>{l=e});return[async function(){let t;let r=ej(),c=e$(),d=r,f=c,p=[null,null,null],h=s(n),[m,y,b]=await tj({tree:e,parentParams:{},metadataItems:[],errorMetadataItem:p,searchParams:h,getDynamicParamFromSegment:o,errorConvention:"redirect"===a?void 0:a,metadataContext:u});if(m){if(t=m,!a&&tO(m)){let[r,n,i]=await tj({tree:e,parentParams:{},metadataItems:[],errorMetadataItem:p,searchParams:h,getDynamicParamFromSegment:o,errorConvention:"not-found",metadataContext:u});f=i,d=n,t=r||t}l(t)}else f=b,d=y,l(void 0);let S=eS([function({viewport:e}){return eS([eb({name:"viewport",content:function(e){let t=null;if(e&&"object"==typeof e){for(let r in t="",e_)if(r in e){let n=e[r];"boolean"==typeof n&&(n=n?"yes":"no"),t&&(t+=", "),t+=`${e_[r]}=${n}`}}return t}(e)}),...e.themeColor?e.themeColor.map(e=>eb({name:"theme-color",content:e.color,media:e.media})):[],eb({name:"color-scheme",content:e.colorScheme})])}({viewport:f}),function({metadata:e}){var t,r,n;return eS([(0,g.jsx)("meta",{charSet:"utf-8"}),null!==e.title&&e.title.absolute?(0,g.jsx)("title",{children:e.title.absolute}):null,eb({name:"description",content:e.description}),eb({name:"application-name",content:e.applicationName}),...e.authors?e.authors.map(e=>[e.url?(0,g.jsx)("link",{rel:"author",href:e.url.toString()}):null,eb({name:"author",content:e.name})]):[],e.manifest?(0,g.jsx)("link",{rel:"manifest",href:e.manifest.toString(),crossOrigin:"use-credentials"}):null,eb({name:"generator",content:e.generator}),eb({name:"keywords",content:null==(t=e.keywords)?void 0:t.join(",")}),eb({name:"referrer",content:e.referrer}),eb({name:"creator",content:e.creator}),eb({name:"publisher",content:e.publisher}),eb({name:"robots",content:null==(r=e.robots)?void 0:r.basic}),eb({name:"googlebot",content:null==(n=e.robots)?void 0:n.googleBot}),eb({name:"abstract",content:e.abstract}),...e.archives?e.archives.map(e=>(0,g.jsx)("link",{rel:"archives",href:e})):[],...e.assets?e.assets.map(e=>(0,g.jsx)("link",{rel:"assets",href:e})):[],...e.bookmarks?e.bookmarks.map(e=>(0,g.jsx)("link",{rel:"bookmarks",href:e})):[],eb({name:"category",content:e.category}),eb({name:"classification",content:e.classification}),...e.other?Object.entries(e.other).map(([e,t])=>Array.isArray(t)?t.map(t=>eb({name:e,content:t})):eb({name:e,content:t})):[]])}({metadata:d}),function({alternates:e}){if(!e)return null;let{canonical:t,languages:r,media:n,types:o}=e;return eS([t?eR({rel:"canonical",descriptor:t}):null,r?Object.entries(r).flatMap(([e,t])=>null==t?void 0:t.map(t=>eR({rel:"alternate",hrefLang:e,descriptor:t}))):null,n?Object.entries(n).flatMap(([e,t])=>null==t?void 0:t.map(t=>eR({rel:"alternate",media:e,descriptor:t}))):null,o?Object.entries(o).flatMap(([e,t])=>null==t?void 0:t.map(t=>eR({rel:"alternate",type:e,descriptor:t}))):null])}({alternates:d.alternates}),function({itunes:e}){if(!e)return null;let{appId:t,appArgument:r}=e,n=`app-id=${t}`;return r&&(n+=`, app-argument=${r}`),(0,g.jsx)("meta",{name:"apple-itunes-app",content:n})}({itunes:d.itunes}),function({formatDetection:e}){if(!e)return null;let t="";for(let r of eC)r in e&&(t&&(t+=", "),t+=`${r}=no`);return(0,g.jsx)("meta",{name:"format-detection",content:t})}({formatDetection:d.formatDetection}),function({verification:e}){return e?eS([ek({namePrefix:"google-site-verification",contents:e.google}),ek({namePrefix:"y_key",contents:e.yahoo}),ek({namePrefix:"yandex-verification",contents:e.yandex}),ek({namePrefix:"me",contents:e.me}),...e.other?Object.entries(e.other).map(([e,t])=>ek({namePrefix:e,contents:t})):[]]):null}({verification:d.verification}),function({appleWebApp:e}){if(!e)return null;let{capable:t,title:r,startupImage:n,statusBarStyle:o}=e;return eS([t?eb({name:"apple-mobile-web-app-capable",content:"yes"}):null,eb({name:"apple-mobile-web-app-title",content:r}),n?n.map(e=>(0,g.jsx)("link",{href:e.url,media:e.media,rel:"apple-touch-startup-image"})):null,o?eb({name:"apple-mobile-web-app-status-bar-style",content:o}):null])}({appleWebApp:d.appleWebApp}),function({openGraph:e}){var t,r,n,o,i,a,s;let l;if(!e)return null;if("type"in e){let t=e.type;switch(t){case"website":l=[eb({property:"og:type",content:"website"})];break;case"article":l=[eb({property:"og:type",content:"article"}),eb({property:"article:published_time",content:null==(o=e.publishedTime)?void 0:o.toString()}),eb({property:"article:modified_time",content:null==(i=e.modifiedTime)?void 0:i.toString()}),eb({property:"article:expiration_time",content:null==(a=e.expirationTime)?void 0:a.toString()}),ek({propertyPrefix:"article:author",contents:e.authors}),eb({property:"article:section",content:e.section}),ek({propertyPrefix:"article:tag",contents:e.tags})];break;case"book":l=[eb({property:"og:type",content:"book"}),eb({property:"book:isbn",content:e.isbn}),eb({property:"book:release_date",content:e.releaseDate}),ek({propertyPrefix:"book:author",contents:e.authors}),ek({propertyPrefix:"book:tag",contents:e.tags})];break;case"profile":l=[eb({property:"og:type",content:"profile"}),eb({property:"profile:first_name",content:e.firstName}),eb({property:"profile:last_name",content:e.lastName}),eb({property:"profile:username",content:e.username}),eb({property:"profile:gender",content:e.gender})];break;case"music.song":l=[eb({property:"og:type",content:"music.song"}),eb({property:"music:duration",content:null==(s=e.duration)?void 0:s.toString()}),ek({propertyPrefix:"music:album",contents:e.albums}),ek({propertyPrefix:"music:musician",contents:e.musicians})];break;case"music.album":l=[eb({property:"og:type",content:"music.album"}),ek({propertyPrefix:"music:song",contents:e.songs}),ek({propertyPrefix:"music:musician",contents:e.musicians}),eb({property:"music:release_date",content:e.releaseDate})];break;case"music.playlist":l=[eb({property:"og:type",content:"music.playlist"}),ek({propertyPrefix:"music:song",contents:e.songs}),ek({propertyPrefix:"music:creator",contents:e.creators})];break;case"music.radio_station":l=[eb({property:"og:type",content:"music.radio_station"}),ek({propertyPrefix:"music:creator",contents:e.creators})];break;case"video.movie":l=[eb({property:"og:type",content:"video.movie"}),ek({propertyPrefix:"video:actor",contents:e.actors}),ek({propertyPrefix:"video:director",contents:e.directors}),ek({propertyPrefix:"video:writer",contents:e.writers}),eb({property:"video:duration",content:e.duration}),eb({property:"video:release_date",content:e.releaseDate}),ek({propertyPrefix:"video:tag",contents:e.tags})];break;case"video.episode":l=[eb({property:"og:type",content:"video.episode"}),ek({propertyPrefix:"video:actor",contents:e.actors}),ek({propertyPrefix:"video:director",contents:e.directors}),ek({propertyPrefix:"video:writer",contents:e.writers}),eb({property:"video:duration",content:e.duration}),eb({property:"video:release_date",content:e.releaseDate}),ek({propertyPrefix:"video:tag",contents:e.tags}),eb({property:"video:series",content:e.series})];break;case"video.tv_show":l=[eb({property:"og:type",content:"video.tv_show"})];break;case"video.other":l=[eb({property:"og:type",content:"video.other"})];break;default:throw Error(`Invalid OpenGraph type: ${t}`)}}return eS([eb({property:"og:determiner",content:e.determiner}),eb({property:"og:title",content:null==(t=e.title)?void 0:t.absolute}),eb({property:"og:description",content:e.description}),eb({property:"og:url",content:null==(r=e.url)?void 0:r.toString()}),eb({property:"og:site_name",content:e.siteName}),eb({property:"og:locale",content:e.locale}),eb({property:"og:country_name",content:e.countryName}),eb({property:"og:ttl",content:null==(n=e.ttl)?void 0:n.toString()}),ek({propertyPrefix:"og:image",contents:e.images}),ek({propertyPrefix:"og:video",contents:e.videos}),ek({propertyPrefix:"og:audio",contents:e.audio}),ek({propertyPrefix:"og:email",contents:e.emails}),ek({propertyPrefix:"og:phone_number",contents:e.phoneNumbers}),ek({propertyPrefix:"og:fax_number",contents:e.faxNumbers}),ek({propertyPrefix:"og:locale:alternate",contents:e.alternateLocale}),...l||[]])}({openGraph:d.openGraph}),function({twitter:e}){var t;if(!e)return null;let{card:r}=e;return eS([eb({name:"twitter:card",content:r}),eb({name:"twitter:site",content:e.site}),eb({name:"twitter:site:id",content:e.siteId}),eb({name:"twitter:creator",content:e.creator}),eb({name:"twitter:creator:id",content:e.creatorId}),eb({name:"twitter:title",content:null==(t=e.title)?void 0:t.absolute}),eb({name:"twitter:description",content:e.description}),ek({namePrefix:"twitter:image",contents:e.images}),..."player"===r?e.players.flatMap(e=>[eb({name:"twitter:player",content:e.playerUrl.toString()}),eb({name:"twitter:player:stream",content:e.streamUrl.toString()}),eb({name:"twitter:player:width",content:e.width}),eb({name:"twitter:player:height",content:e.height})]):[],..."app"===r?[eP({app:e.app,type:"iphone"}),eP({app:e.app,type:"ipad"}),eP({app:e.app,type:"googleplay"})]:[]])}({twitter:d.twitter}),function({appLinks:e}){return e?eS([ek({propertyPrefix:"al:ios",contents:e.ios}),ek({propertyPrefix:"al:iphone",contents:e.iphone}),ek({propertyPrefix:"al:ipad",contents:e.ipad}),ek({propertyPrefix:"al:android",contents:e.android}),ek({propertyPrefix:"al:windows_phone",contents:e.windows_phone}),ek({propertyPrefix:"al:windows",contents:e.windows}),ek({propertyPrefix:"al:windows_universal",contents:e.windows_universal}),ek({propertyPrefix:"al:web",contents:e.web})]):null}({appLinks:d.appLinks}),function({icons:e}){if(!e)return null;let t=e.shortcut,r=e.icon,n=e.apple,o=e.other;return eS([t?t.map(e=>eT({rel:"shortcut icon",icon:e})):null,r?r.map(e=>eT({rel:"icon",icon:e})):null,n?n.map(e=>eT({rel:"apple-touch-icon",icon:e})):null,o?o.map(e=>eE({icon:e})):null])}({icons:d.icons})]);return i&&S.push((0,g.jsx)("meta",{name:"next-size-adjust"})),(0,g.jsx)(g.Fragment,{children:S.map((e,t)=>v.cloneElement(e,{key:t}))})},async function(){let e=await c;if(e)throw e;return null}]}var tI=r("./dist/esm/server/web/spec-extension/adapters/headers.js"),tM=r("./dist/esm/server/web/spec-extension/adapters/reflect.js");let tL=require("next/dist/client/components/static-generation-async-storage.external.js");class tN extends Error{constructor(){super("Cookies can only be modified in a Server Action or Route Handler. Read more: https://nextjs.org/docs/app/api-reference/functions/cookies#cookiessetname-value-options")}static callable(){throw new tN}}class tF{static seal(e){return new Proxy(e,{get(e,t,r){switch(t){case"clear":case"delete":case"set":return tN.callable;default:return tM.g.get(e,t,r)}}})}}let tD=Symbol.for("next.mutated.cookies");function tB(e){let t=e[tD];return t&&Array.isArray(t)&&0!==t.length?t:[]}function tU(e,t){let r=tB(t);if(0===r.length)return!1;let n=new X.ResponseCookies(e),o=n.getAll();for(let e of r)n.set(e);for(let e of o)n.set(e);return!0}class tH{static wrap(e,t){let r=new X.ResponseCookies(new Headers);for(let t of e.getAll())r.set(t);let n=[],o=new Set,i=()=>{let e=tL.staticGenerationAsyncStorage.getStore();if(e&&(e.pathWasRevalidated=!0),n=r.getAll().filter(e=>o.has(e.name)),t){let e=[];for(let t of n){let r=new X.ResponseCookies(new Headers);r.set(t),e.push(r.toString())}t(e)}};return new Proxy(r,{get(e,t,r){switch(t){case tD:return n;case"delete":return function(...t){o.add("string"==typeof t[0]?t[0]:t[0].name);try{e.delete(...t)}finally{i()}};case"set":return function(...t){o.add("string"==typeof t[0]?t[0]:t[0].name);try{return e.set(...t)}finally{i()}};default:return tM.g.get(e,t,r)}}})}}var tq=r("./dist/esm/server/api-utils/index.js");class tz{constructor(e,t,r,n){var o;let i=e&&(0,tq.checkIsOnDemandRevalidate)(t,e).isOnDemandRevalidate,a=null==(o=r.get(tq.COOKIE_NAME_PRERENDER_BYPASS))?void 0:o.value;this.isEnabled=!!(!i&&a&&e&&a===e.previewModeId),this._previewModeId=null==e?void 0:e.previewModeId,this._mutableCookies=n}enable(){if(!this._previewModeId)throw Error("Invariant: previewProps missing previewModeId this should never happen");this._mutableCookies.set({name:tq.COOKIE_NAME_PRERENDER_BYPASS,value:this._previewModeId,httpOnly:!0,sameSite:"none",secure:!0,path:"/"})}disable(){this._mutableCookies.set({name:tq.COOKIE_NAME_PRERENDER_BYPASS,value:"",httpOnly:!0,sameSite:"none",secure:!0,path:"/",expires:new Date(0)})}}let tW={wrap(e,{req:t,res:r,renderOpts:n},o){let i;function a(e){r&&r.setHeader("Set-Cookie",e)}n&&"previewProps"in n&&(i=n.previewProps);let s={},l={get headers(){return s.headers||(s.headers=function(e){let t=tI.h.from(e);for(let e of em)t.delete(e.toString().toLowerCase());return tI.h.seal(t)}(t.headers)),s.headers},get cookies(){return s.cookies||(s.cookies=function(e){let t=new X.RequestCookies(tI.h.from(e));return tF.seal(t)}(t.headers)),s.cookies},get mutableCookies(){return s.mutableCookies||(s.mutableCookies=function(e,t){let r=new X.RequestCookies(tI.h.from(e));return tH.wrap(r,t)}(t.headers,(null==n?void 0:n.onUpdateCookies)||(r?a:void 0))),s.mutableCookies},get draftMode(){return s.draftMode||(s.draftMode=new tz(i,t,this.cookies,this.mutableCookies)),s.draftMode},reactLoadableManifest:(null==n?void 0:n.reactLoadableManifest)||{},assetPrefix:(null==n?void 0:n.assetPrefix)||""};return e.run(l,o,l)}};function tV(e){return"object"==typeof e&&null!==e&&"digest"in e&&"string"==typeof e.digest&&"DYNAMIC_SERVER_USAGE"===e.digest}let tJ="NEXT_STATIC_GEN_BAILOUT";class tG extends Error{constructor(...e){super(...e),this.code=tJ}}let tY="function"==typeof v.unstable_postpone;function tK(e){return e.dynamicAccesses.length>0}let tX={wrap(e,{urlPathname:t,renderOpts:r,requestEndedState:n},o){let i=!r.supportsDynamicHTML&&!r.isDraftMode&&!r.isServerAction,a=i&&r.experimental.ppr?{isDebugSkeleton:r.isDebugPPRSkeleton,dynamicAccesses:[]}:null,s={isStaticGeneration:i,urlPathname:t,pagePath:r.originalPathname,incrementalCache:r.incrementalCache||globalThis.__incrementalCache,isRevalidate:r.isRevalidate,isPrerendering:r.nextExport,fetchCache:r.fetchCache,isOnDemandRevalidate:r.isOnDemandRevalidate,isDraftMode:r.isDraftMode,prerenderState:a,requestEndedState:n};return r.store=s,e.run(s,o,s)}};function tQ(e){if("object"!=typeof e||null===e||!("digest"in e)||"string"!=typeof e.digest)return!1;let[t,r,n,o]=e.digest.split(";",4),a=Number(o);return"NEXT_REDIRECT"===t&&("replace"===r||"push"===r)&&"string"==typeof n&&!isNaN(a)&&a in i}function tZ(e){return tQ(e)?e.digest.split(";",3)[2]:null}function t0(e){if(!tQ(e))throw Error("Not a redirect error");return Number(e.digest.split(";",4)[3])}require("next/dist/client/components/request-async-storage.external.js"),require("next/dist/client/components/action-async-storage.external.js"),function(e){e[e.SeeOther=303]="SeeOther",e[e.TemporaryRedirect=307]="TemporaryRedirect",e[e.PermanentRedirect=308]="PermanentRedirect"}(i||(i={})),function(e){e.push="push",e.replace="replace"}(a||(a={}));var t1=r("./dist/esm/lib/constants.js");let t2=e=>{let t=["/layout"];if(e.startsWith("/")){let r=e.split("/");for(let e=1;e<r.length+1;e++){let n=r.slice(0,e).join("/");n&&(n.endsWith("/page")||n.endsWith("/route")||(n=`${n}${n.endsWith("/")?"":"/"}layout`),t.push(n))}}return t};class t4 extends ea{constructor(e){super(e,{contentType:eh,metadata:{}})}}var t6=r("./dist/compiled/string-hash/index.js"),t3=r.n(t6);let t8=["useDeferredValue","useEffect","useImperativeHandle","useInsertionEffect","useLayoutEffect","useReducer","useRef","useState","useSyncExternalStore","useTransition","experimental_useOptimistic","useOptimistic"];function t5(e,t){if(e.message=t,e.stack){let r=e.stack.split("\n");r[0]=t,e.stack=r.join("\n")}}function t9(e){return"object"==typeof e&&null!==e&&"digest"in e&&"BAILOUT_TO_CLIENT_SIDE_RENDERING"===e.digest}let t7=e=>tO(e)||tQ(e),re=e=>tV(e)||t9(e)||t7(e),rt={serverComponents:"serverComponents",flightData:"flightData",html:"html"};function rr({source:e,dev:t,isNextExport:r,errorLogger:n,digestErrorsMap:o,allCapturedErrors:i,silenceLogger:a}){return(s,l)=ialIndex, materialParams ) {
+
+		const parser = this.parser;
+		const materialDef = parser.json.materials[ materialIndex ];
+
+		if ( ! materialDef.extensions || ! materialDef.extensions[ this.name ] ) {
+
+			return Promise.resolve();
+
+		}
+
+		const pending = [];
+
+		const extension = materialDef.extensions[ this.name ];
+
+		materialParams.thickness = extension.thicknessFactor !== undefined ? extension.thicknessFactor : 0;
+
+		if ( extension.thicknessTexture !== undefined ) {
+
+			pending.push( parser.assignTexture( materialParams, 'thicknessMap', extension.thicknessTexture ) );
+
+		}
+
+		materialParams.attenuationDistance = extension.attenuationDistance || Infinity;
+
+		const colorArray = extension.attenuationColor || [ 1, 1, 1 ];
+		materialParams.attenuationColor = new Color().setRGB( colorArray[ 0 ], colorArray[ 1 ], colorArray[ 2 ], LinearSRGBColorSpace );
+
+		return Promise.all( pending );
+
+	}
+
+}
+
+/**
+ * Materials ior Extension
+ *
+ * Specification: https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_ior
+ */
+class GLTFMaterialsIorExtension {
+
+	constructor( parser ) {
+
+		this.parser = parser;
+		this.name = EXTENSIONS.KHR_MATERIALS_IOR;
+
+	}
+
+	getMaterialType( materialIndex ) {
+
+		const parser = this.parser;
+		const materialDef = parser.json.materials[ materialIndex ];
+
+		if ( ! materialDef.extensions || ! materialDef.extensions[ this.name ] ) return null;
+
+		return MeshPhysicalMaterial;
+
+	}
+
+	extendMaterialParams( materialIndex, materialParams ) {
+
+		const parser = this.parser;
+		const materialDef = parser.json.materials[ materialIndex ];
+
+		if ( ! materialDef.extensions || ! materialDef.extensions[ this.name ] ) {
+
+			return Promise.resolve();
+
+		}
+
+		const extension = materialDef.extensions[ this.name ];
+
+		materialParams.ior = extension.ior !== undefined ? extension.ior : 1.5;
+
+		return Promise.resolve();
+
+	}
+
+}
+
+/**
+ * Materials specular Extension
+ *
+ * Specification: https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_specular
+ */
+class GLTFMaterialsSpecularExtension {
+
+	constructor( parser ) {
+
+		this.parser = parser;
+		this.name = EXTENSIONS.KHR_MATERIALS_SPECULAR;
+
+	}
+
+	getMaterialType( materialIndex ) {
+
+		const parser = this.parser;
+		const materialDef = parser.json.materials[ materialIndex ];
+
+		if ( ! materialDef.extensions || ! materialDef.extensions[ this.name ] ) return null;
+
+		return MeshPhysicalMaterial;
+
+	}
+
+	extendMaterialParams( materialIndex, materialParams ) {
+
+		const parser = this.parser;
+		const materialDef = parser.json.materials[ materialIndex ];
+
+		if ( ! materialDef.extensions || ! materialDef.extensions[ this.name ] ) {
+
+			return Promise.resolve();
+
+		}
+
+		const pending = [];
+
+		const extension = materialDef.extensions[ this.name ];
+
+		materialParams.specularIntensity = extension.specularFactor !== undefined ? extension.specularFactor : 1.0;
+
+		if ( extension.specularTexture !== undefined ) {
+
+			pending.push( parser.assignTexture( materialParams, 'specularIntensityMap', extension.specularTexture ) );
+
+		}
+
+		const colorArray = extension.specularColorFactor || [ 1, 1, 1 ];
+		materialParams.specularColor = new Color().setRGB( colorArray[ 0 ], colorArray[ 1 ], colorArray[ 2 ], LinearSRGBColorSpace );
+
+		if ( extension.specularColorTexture !== undefined ) {
+
+			pending.push( parser.assignTexture( materialParams, 'specularColorMap', extension.specularColorTexture, SRGBColorSpace ) );
+
+		}
+
+		return Promise.all( pending );
+
+	}
+
+}
+
+
+/**
+ * Materials bump Extension
+ *
+ * Specification: https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/EXT_materials_bump
+ */
+class GLTFMaterialsBumpExtension {
+
+	constructor( parser ) {
+
+		this.parser = parser;
+		this.name = EXTENSIONS.EXT_MATERIALS_BUMP;
+
+	}
+
+	getMaterialType( materialIndex ) {
+
+		const parser = this.parser;
+		const materialDef = parser.json.materials[ materialIndex ];
+
+		if ( ! materialDef.extensions || ! materialDef.extensions[ this.name ] ) return null;
+
+		return MeshPhysicalMaterial;
+
+	}
+
+	extendMaterialParams( materialIndex, materialParams ) {
+
+		const parser = this.parser;
+		const materialDef = parser.json.materials[ materialIndex ];
+
+		if ( ! materialDef.extensions || ! materialDef.extensions[ this.name ] ) {
+
+			return Promise.resolve();
+
+		}
+
+		const pending = [];
+
+		const extension = materialDef.extensions[ this.name ];
+
+		materialParams.bumpScale = extension.bumpFactor !== undefined ? extension.bumpFactor : 1.0;
+
+		if ( extension.bumpTexture !== undefined ) {
+
+			pending.push( parser.assignTexture( materialParams, 'bumpMap', extension.bumpTexture ) );
+
+		}
+
+		return Promise.all( pending );
+
+	}
+
+}
+
+/**
+ * Materials anisotropy Extension
+ *
+ * Specification: https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_anisotropy
+ */
+class GLTFMaterialsAnisotropyExtension {
+
+	constructor( parser ) {
+
+		this.parser = parser;
+		this.name = EXTENSIONS.KHR_MATERIALS_ANISOTROPY;
+
+	}
+
+	getMaterialType( materialIndex ) {
+
+		const parser = this.parser;
+		const materialDef = parser.json.materials[ materialIndex ];
+
+		if ( ! materialDef.extensions || ! materialDef.extensions[ this.name ] ) return null;
+
+		return MeshPhysicalMaterial;
+
+	}
+
+	extendMaterialParams( materialIndex, materialParams ) {
+
+		const parser = this.parser;
+		const materialDef = parser.json.materials[ materialIndex ];
+
+		if ( ! materialDef.extensions || ! materialDef.extensions[ this.name ] ) {
+
+			return Promise.resolve();
+
+		}
+
+		const pending = [];
+
+		const extension = materialDef.extensions[ this.name ];
+
+		if ( extension.anisotropyStrength !== undefined ) {
+
+			materialParams.anisotropy = extension.anisotropyStrength;
+
+		}
+
+		if ( extension.anisotropyRotation !== undefined ) {
+
+			materialParams.anisotropyRotation = extension.anisotropyRotation;
+
+		}
+
+		if ( extension.anisotropyTexture !== undefined ) {
+
+			pending.push( parser.assignTexture( materialParams, 'anisotropyMap', extension.anisotropyTexture ) );
+
+		}
+
+		return Promise.all( pending );
+
+	}
+
+}
+
+/**
+ * BasisU Texture Extension
+ *
+ * Specification: https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_texture_basisu
+ */
+class GLTFTextureBasisUExtension {
+
+	constructor( parser ) {
+
+		this.parser = parser;
+		this.name = EXTENSIONS.KHR_TEXTURE_BASISU;
+
+	}
+
+	loadTexture( textureIndex ) {
+
+		const parser = this.parser;
+		const json = parser.json;
+
+		const textureDef = json.textures[ textureIndex ];
+
+		if ( ! textureDef.extensions || ! textureDef.extensions[ this.name ] ) {
+
+			return null;
+
+		}
+
+		const extension = textureDef.extensions[ this.name ];
+		const loader = parser.options.ktx2Loader;
+
+		if ( ! loader ) {
+
+			if ( json.extensionsRequired && json.extensionsRequired.indexOf( this.name ) >= 0 ) {
+
+				throw new Error( 'THREE.GLTFLoader: setKTX2Loader must be called before loading KTX2 textures' );
+
+			} else {
+
+				// Assumes that the extension is optional and that a fallback texture is present
+				return null;
+
+			}
+
+		}
+
+		return parser.loadTextureImage( textureIndex, extension.source, loader );
+
+	}
+
+}
+
+/**
+ * WebP Texture Extension
+ *
+ * Specification: https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Vendor/EXT_texture_webp
+ */
+class GLTFTextureWebPExtension {
+
+	constructor( parser ) {
+
+		this.parser = parser;
+		this.name = EXTENSIONS.EXT_TEXTURE_WEBP;
+		this.isSupported = null;
+
+	}
+
+	loadTexture( textureIndex ) {
+
+		const name = this.name;
+		const parser = this.parser;
+		const json = parser.json;
+
+		const textureDef = json.textures[ textureIndex ];
+
+		if ( ! textureDef.extensions || ! textureDef.extensions[ name ] ) {
+
+			return null;
+
+		}
+
+		const extension = textureDef.extensions[ name ];
+		const source = json.images[ extension.source ];
+
+		let loader = parser.textureLoader;
+		if ( source.uri ) {
+
+			const handler = parser.options.manager.getHandler( source.uri );
+			if ( handler !== null ) loader = handler;
+
+		}
+
+		return this.detectSupport().then( function ( isSupported ) {
+
+			if ( isSupported ) return parser.loadTextureImage( textureIndex, extension.source, loader );
+
+			if ( json.extensionsRequired && json.extensionsRequired.indexOf( name ) >= 0 ) {
+
+				throw new Error( 'THREE.GLTFLoader: WebP required by asset but unsupported.' );
+
+			}
+
+			// Fall back to PNG or JPEG.
+			return parser.loadTexture( textureIndex );
+
+		} );
+
+	}
+
+	detectSupport() {
+
+		if ( ! this.isSupported ) {
+
+			this.isSupported = new Promise( function ( resolve ) {
+
+				const image = new Image();
+
+				// Lossy test image. Support for lossy images doesn't guarantee support for all
+				// WebP images, unfortunately.
+				image.src = 'data:image/webp;base64,UklGRiIAAABXRUJQVlA4IBYAAAAwAQCdASoBAAEADsD+JaQAA3AAAAAA';
+
+				image.onload = image.onerror = function () {
+
+					resolve( image.height === 1 );
+
+				};
+
+			} );
+
+		}
+
+		return this.isSupported;
+
+	}
+
+}
+
+/**
+ * AVIF Texture Extension
+ *
+ * Specification: https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Vendor/EXT_texture_avif
+ */
+class GLTFTextureAVIFExtension {
+
+	constructor( parser ) {
+
+		this.parser = parser;
+		this.name = EXTENSIONS.EXT_TEXTURE_AVIF;
+		this.isSupported = null;
+
+	}
+
+	loadTexture( textureIndex ) {
+
+		const name = this.name;
+		const parser = this.parser;
+		const json = parser.json;
+
+		const textureDef = json.textures[ textureIndex ];
+
+		if ( ! textureDef.extensions || ! textureDef.extensions[ name ] ) {
+
+			return null;
+
+		}
+
+		const extension = textureDef.extensions[ name ];
+		const source = json.images[ extension.source ];
+
+		let loader = parser.textureLoader;
+		if ( source.uri ) {
+
+			const handler = parser.options.manager.getHandler( source.uri );
+			if ( handler !== null ) loader = handler;
+
+		}
+
+		return this.detectSupport().then( function ( isSupported ) {
+
+			if ( isSupported ) return parser.loadTextureImage( textureIndex, extension.source, loader );
+
+			if ( json.extensionsRequired && json.extensionsRequired.indexOf( name ) >= 0 ) {
+
+				throw new Error( 'THREE.GLTFLoader: AVIF required by asset but unsupported.' );
+
+			}
+
+			// Fall back to PNG or JPEG.
+			return parser.loadTexture( textureIndex );
+
+		} );
+
+	}
+
+	detectSupport() {
+
+		if ( ! this.isSupported ) {
+
+			this.isSupported = new Promise( function ( resolve ) {
+
+				const image = new Image();
+
+				// Lossy test image.
+				image.src = 'data:image/avif;base64,AAAAIGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZk1BMUIAAADybWV0YQAAAAAAAAAoaGRscgAAAAAAAAAAcGljdAAAAAAAAAAAAAAAAGxpYmF2aWYAAAAADnBpdG0AAAAAAAEAAAAeaWxvYwAAAABEAAABAAEAAAABAAABGgAAABcAAAAoaWluZgAAAAAAAQAAABppbmZlAgAAAAABAABhdjAxQ29sb3IAAAAAamlwcnAAAABLaXBjbwAAABRpc3BlAAAAAAAAAAEAAAABAAAAEHBpeGkAAAAAAwgICAAAAAxhdjFDgQAMAAAAABNjb2xybmNseAACAAIABoAAAAAXaXBtYQAAAAAAAAABAAEEAQKDBAAAAB9tZGF0EgAKCBgABogQEDQgMgkQAAAAB8dSLfI=';
+				image.onload = image.onerror = function () {
+
+					resolve( image.height === 1 );
+
+				};
+
+			} );
+
+		}
+
+		return this.isSupported;
+
+	}
+
+}
+
+/**
+ * meshopt BufferView Compression Extension
+ *
+ * Specification: https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Vendor/EXT_meshopt_compression
+ */
+class GLTFMeshoptCompression {
+
+	constructor( parser ) {
+
+		this.name = EXTENSIONS.EXT_MESHOPT_COMPRESSION;
+		this.parser = parser;
+
+	}
+
+	loadBufferView( index ) {
+
+		const json = this.parser.json;
+		const bufferView = json.bufferViews[ index ];
+
+		if ( bufferView.extensions && bufferView.extensions[ this.name ] ) {
+
+			const extensionDef = bufferView.extensions[ this.name ];
+
+			const buffer = this.parser.getDependency( 'buffer', extensionDef.buffer );
+			const decoder = this.parser.options.meshoptDecoder;
+
+			if ( ! decoder || ! decoder.supported ) {
+
+				if ( json.extensionsRequired && json.extensionsRequired.indexOf( this.name ) >= 0 ) {
+
+					throw new Error( 'THREE.GLTFLoader: setMeshoptDecoder must be called before loading compressed files' );
+
+				} else {
+
+					// Assumes that the extension is optional and that fallback buffer data is present
+					return null;
+
+				}
+
+			}
+
+			return buffer.then( function ( res ) {
+
+				const byteOffset = extensionDef.byteOffset || 0;
+				const byteLength = extensionDef.byteLength || 0;
+
+				const count = extensionDef.count;
+				const stride = extensionDef.byteStride;
+
+				const source = new Uint8Array( res, byteOffset, byteLength );
+
+				if ( decoder.decodeGltfBufferAsync ) {
+
+					return decoder.decodeGltfBufferAsync( count, stride, source, extensionDef.mode, extensionDef.filter ).then( function ( res ) {
+
+						return res.buffer;
+
+					} );
+
+				} else {
+
+					// Support for MeshoptDecoder 0.18 or earlier, without decodeGltfBufferAsync
+					return decoder.ready.then( function () {
+
+						const result = new ArrayBuffer( count * stride );
+						decoder.decodeGltfBuffer( new Uint8Array( result ), count, stride, source, extensionDef.mode, extensionDef.filter );
+						return result;
+
+					} );
+
+				}
+
+			} );
+
+		} else {
+
+			return null;
+
+		}
+
+	}
+
+}
+
+/**
+ * GPU Instancing Extension
+ *
+ * Specification: https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Vendor/EXT_mesh_gpu_instancing
+ *
+ */
+class GLTFMeshGpuInstancing {
+
+	constructor( parser ) {
+
+		this.name = EXTENSIONS.EXT_MESH_GPU_INSTANCING;
+		this.parser = parser;
+
+	}
+
+	createNodeMesh( nodeIndex ) {
+
+		const json = this.parser.json;
+		const nodeDef = json.nodes[ nodeIndex ];
+
+		if ( ! nodeDef.extensions || ! nodeDef.extensions[ this.name ] ||
+			nodeDef.mesh === undefined ) {
+
+			return null;
+
+		}
+
+		const meshDef = json.meshes[ nodeDef.mesh ];
+
+		// No Points or Lines + Instancing support yet
+
+		for ( const primitive of meshDef.primitives ) {
+
+			if ( primitive.mode !== WEBGL_CONSTANTS.TRIANGLES &&
+				 primitive.mode !== WEBGL_CONSTANTS.TRIANGLE_STRIP &&
+				 primitive.mode !== WEBGL_CONSTANTS.TRIANGLE_FAN &&
+				 primitive.mode !== undefined ) {
+
+				return null;
+
+			}
+
+		}
+
+		const extensionDef = nodeDef.extensions[ this.name ];
+		const attributesDef = extensionDef.attributes;
+
+		// @TODO: Can we support InstancedMesh + SkinnedMesh?
+
+		const pending = [];
+		const attributes = {};
+
+		for ( const key in attributesDef ) {
+
+			pending.push( this.parser.getDependency( 'accessor', attributesDef[ key ] ).then( accessor => {
+
+				attributes[ key ] = accessor;
+				return attributes[ key ];
+
+			} ) );
+
+		}
+
+		if ( pending.length < 1 ) {
+
+			return null;
+
+		}
+
+		pending.push( this.parser.createNodeMesh( nodeIndex ) );
+
+		return Promise.all( pending ).then( results => {
+
+			const nodeObject = results.pop();
+			const meshes = nodeObject.isGroup ? nodeObject.children : [ nodeObject ];
+			const count = results[ 0 ].count; // All attribute counts should be same
+			const instancedMeshes = [];
+
+			for ( const mesh of meshes ) {
+
+				// Temporal variables
+				const m = new Matrix4();
+				const p = new Vector3();
+				const q = new Quaternion();
+				const s = new Vector3( 1, 1, 1 );
+
+				const instancedMesh = new InstancedMesh( mesh.geometry, mesh.material, count );
+
+				for ( let i = 0; i < count; i ++ ) {
+
+					if ( attributes.TRANSLATION ) {
+
+						p.fromBufferAttribute( attributes.TRANSLATION, i );
+
+					}
+
+					if ( attributes.ROTATION ) {
+
+						q.fromBufferAttribute( attributes.ROTATION, i );
+
+					}
+
+					if ( attributes.SCALE ) {
+
+						s.fromBufferAttribute( attributes.SCALE, i );
+
+					}
+
+					instancedMesh.setMatrixAt( i, m.compose( p, q, s ) );
+
+				}
+
+				// Add instance attributes to the geometry, excluding TRS.
+				for ( const attributeName in attributes ) {
+
+					if ( attributeName === '_COLOR_0' ) {
+
+						const attr = attributes[ attributeName ];
+						instancedMesh.instanceColor = new InstancedBufferAttribute( attr.array, attr.itemSize, attr.normalized );
+
+					} else if ( attributeName !== 'TRANSLATION' &&
+						 attributeName !== 'ROTATION' &&
+						 attributeName !== 'SCALE' ) {
+
+						mesh.geometry.setAttribute( attributeName, attri

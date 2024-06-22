@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-x: hidden !important ;
+  scroll-behavior: smooth;
+}
+
+.move {
+  transform: translateX(-50%);
+  animation: move 3s linear infinite;
+}
+@keyframes move {
+  0% {
+    transform: translate(-50%, -40px);
+  }
+  50% {
+    transform: translate(-50%, 10px);
+  }
+  75% {
+    transform: translate(-50%, 0px);
+  }
+  100% {
+    transform: translate(-50%, -40px);
+  }
+}
