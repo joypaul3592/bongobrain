@@ -19,7 +19,7 @@ export default function Hero() {
 
                 <h1 data-aos="zoom-out-down" className='sm:text-6xl text-4xl text-white text-center lg:w-10/12 mx-auto sm:leading-[4rem]'>Experience the difference in your digital thinking</h1>
                 <p data-aos="fade-up" className=" text-lg lg:w-2/4 mx-auto my-7 text-center  text-gray-300">
-                    At <span className=' font-medium text-green-400'>Notex</span>, we are more than a <span className=' font-medium text-green-400'>software company</span>, we are your strategic <span className=' font-medium text-green-400'>partner</span> in unleashing technology full potential.
+                    At <span className=' font-medium text-green-400'>BrongoBrain</span>, we are more than a <span className=' font-medium text-green-400'>software company</span>, we are your strategic <span className=' font-medium text-green-400'>partner</span> in unleashing technology full potential.
                 </p>
                 <div className=' flex justify-center mt-10'>
                     <Button data-aos="fade-up" type='button' text='Contact' href='/contact' isFill={false} icon={<MdOutlineAddIcCall />} />

@@ -9,7 +9,7 @@ export default function ContactInfo() {
             id: 1,
             type: "Email",
             description: "Our friendly team is here to help.",
-            value: "hello@notex.com",
+            value: "hello@brongobrain.com",
             icon: "GoMail",
             Animation: 'fade-up'
         },
@@ -34,12 +34,12 @@ export default function ContactInfo() {
         <div className="w-10/12 mx-auto flex flex-wrap items-center lg:justify-between justify-center gap-12 my-10 py-10 xl:px-10">
             {
                 contactInfo?.map((contact) => <div key={contact?.id} data-aos={contact?.Animation} className="flex flex-col items-center justify-center text-center">
-                    <span className="p-3 text-xl  text-lime-400  rounded-full bg-[#748e6324] ] ">
+                    <span className="p-3 text-xl  text-green-400  rounded-full bg-[#748e6324] ] ">
                         {contact?.icon === "GoMail" && <GoMail />}
                         {contact?.icon === "GoLocation" && <GoLocation />}
                         {contact?.icon === "IoCallOutline" && <IoCallOutline />}
                     </span>
-                    <h2 className="mt-4 text-lg font-medium text-lime-400 ">{contact?.type}</h2>
+                    <h2 className="mt-4 text-lg font-medium text-green-400 ">{contact?.type}</h2>
                     <p className="mt-2 text-gray-300">{contact?.description}</p>
                     <p className="mt-2 text-gray-300 ">{contact?.value}</p>
                 </div>)

@@ -12,7 +12,7 @@ export default function page() {
         <ReactLenis root="html" options={{ lerp: 0.1, duration: 1.5 }}>
             <Image src={element1} alt='element1' className=' h-[50rem] w-[50rem] opacity-50 fixed -top-12 -right-96 z-[1]' />
             <Image src={element1} alt='element1' className=' h-[50rem] w-[50rem] opacity-50 fixed top-48 -left-[26rem] z-[1]' />
-            <PagesHero title='Get To Know Us' text='Discover our passion for innovation and technology. At Notex, we craft digital solutions with expertise, creating exceptional experiences for our clients in every project we undertake.' />
+            <PagesHero title='Get To Know Us' text='Discover our passion for innovation and technology. At BrongoBrain, we craft digital solutions with expertise, creating exceptional experiences for our clients in every project we undertake.' />
             <About />
             <Team />
         </ReactLenis>

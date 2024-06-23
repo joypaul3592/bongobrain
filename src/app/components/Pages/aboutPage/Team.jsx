@@ -103,13 +103,13 @@ const Team = () => {
                             onMouseLeave={() => setIsHover(null)}
                             src={team?.img}
                             alt={`team${team?.id}`}
-                            className={`rounded-full border-2 border-lime-400 w-20 h-20 cursor-pointer  ${team?.id % 2 ? '-mt-16' : 'mt-16'}`}
+                            className={`rounded-full border-2 border-green-400 w-20 h-20 cursor-pointer  ${team?.id % 2 ? '-mt-16' : 'mt-16'}`}
                         />
                         <div className={`absolute sm:w-[22rem] w-[16rem]  transition-all ease-linear duration-200 z-[100] ${team?.id % 2 ? 'bottom-[14rem] sm:-left-36 left-0 ' : 'sm:bottom-24 bottom-[6rem] sm:-left-36 -left-[8.8rem] '}  ${isHover === team?.id ? 'visible  scale-100' : 'invisible  scale-0'}`}>
-                            <div className="bg-gradient-to-r from-[#10110f48] via-[#a3f8053b] to-[#0000] w-full rounded-md p-3 text-center relative border border-lime-900 bg-[#111204]">
-                                <h3 className="text-xl font-medium text-lime-400">{team?.name}</h3>
+                            <div className="bg-gradient-to-r from-[#10110f48] via-[#3ef8053b] to-[#0000] w-full rounded-md p-3 text-center relative border border-green-900 bg-[#111204]">
+                                <h3 className="text-xl font-medium text-green-400">{team?.name}</h3>
                                 <div className="text-sm text-gray-300">{team?.designation}</div>
-                                <div className="border-b border-dashed border-lime-400 mb-4 mt-3"></div>
+                                <div className="border-b border-dashed border-green-400 mb-4 mt-3"></div>
                                 <p className="text-white">
                                     {team?.text}
                                 </p>
