@@ -1,7 +1,7 @@
 'use client'
 import Image from "next/image";
-import element2 from '../../../assets/image/elements/element2.png'
-import element3 from '../../../assets/image/elements/element3.png'
+import element2 from '../../../assets/image/elements/element8.png'
+import element3 from '../../../assets/image/elements/element9.png'
 import ScrollDown from "../../uiKit/ScrollDown";
 
 export default function PagesHero({ title, text }) {

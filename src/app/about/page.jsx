@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import Team from '../components/Pages/aboutPage/Team'
 import About from '../components/Pages/aboutPage/About'
-import element1 from '../assets/image/elements/element1.png'
+import element1 from '../assets/image/elements/element6.png'
 import PagesHero from '../components/sheard/pagesHero/PagesHero'
 import ReactLenis from '@studio-freight/react-lenis'
 

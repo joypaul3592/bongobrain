@@ -1,6 +1,6 @@
 'use client'
 import Image from "next/image";
-import element1 from '../assets/image/elements/element1.png'
+import element1 from '../assets/image/elements/element6.png'
 import PagesHero from "../components/sheard/pagesHero/PagesHero";
 import Projects from "../components/Pages/projectsPage/Projects";
 import ReactLenis from "@studio-freight/react-lenis";

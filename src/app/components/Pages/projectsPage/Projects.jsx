@@ -1,13 +1,18 @@
 'use client'
-import Button from "@/app/components/sheard/button/Button";
-import { BiCodeAlt, BiLink, BiLogoGithub } from "react-icons/bi";
-import project1 from '../../../assets/image/project/project1.jpg'
-import project2 from '../../../assets/image/project/project2.png'
-import project3 from '../../../assets/image/project/project3.png'
-import project4 from '../../../assets/image/project/project4.png'
 import Image from "next/image";
 import TitleBox from "../../uiKit/TitleBox";
 import { usePathname } from "next/navigation";
+import Button from "@/app/components/sheard/button/Button";
+import { BiCodeAlt, BiLink, BiLogoGithub } from "react-icons/bi";
+import project1 from '../../../assets/image/project/project4.png'
+import project2 from '../../../assets/image/project/project2.png'
+import project3 from '../../../assets/image/project/project3.png'
+import project4 from '../../../assets/image/project/project1.png'
+import project5 from '../../../assets/image/project/project5.png'
+import project6 from '../../../assets/image/project/project6.png'
+import project7 from '../../../assets/image/project/project7.png'
+import project8 from '../../../assets/image/project/project8.png'
+
 
 export default function Projects() {
     const pathname = usePathname();
@@ -15,26 +20,58 @@ export default function Projects() {
         {
             id: 1,
             imgSrc: project1,
-            title: 'Learning Management Application',
-            Animation: 'fade-down'
+            title: 'GO EC',
+            Animation: 'fade-down',
+            livelink: 'https://www.goecworld.com/'
         },
         {
             id: 2,
             imgSrc: project2,
-            title: 'E-Commerce Application',
-            Animation: 'fade-up'
+            title: 'IQ Social',
+            Animation: 'fade-up',
+            livelink: 'https://iqsonet.com/'
         },
         {
             id: 3,
             imgSrc: project3,
-            title: 'Booking Application',
-            Animation: 'fade-down'
+            title: 'iQ Barter',
+            Animation: 'fade-down',
+            livelink: 'https://www.iqbarter.com/'
         },
         {
             id: 4,
             imgSrc: project4,
-            title: 'Social Application',
-            Animation: 'fade-up'
+            title: 'IshQool',
+            Animation: 'fade-up',
+            livelink: 'https://www.ishqool.com/'
+        },
+        {
+            id: 5,
+            imgSrc: project5,
+            title: 'Medullas',
+            Animation: 'fade-up',
+            livelink: 'https://leafy-hamster-123e43.netlify.app/'
+        },
+        {
+            id: 6,
+            imgSrc: project6,
+            title: 'TasteBudTales',
+            Animation: 'fade-down',
+            livelink: null
+        },
+        {
+            id: 7,
+            imgSrc: project7,
+            title: 'Timber-Grove',
+            Animation: 'fade-up',
+            livelink: null
+        },
+        {
+            id: 8,
+            imgSrc: project8,
+            title: 'TrendLine',
+            Animation: 'fade-down',
+            livelink: null
         },
     ];
     return (
@@ -52,24 +89,18 @@ export default function Projects() {
                             <h1 className=" xl:text-xl text-lg font-medium text-white mt-[-10%] z-[12] relative group-hover:mt-[0%]  group-hover:opacity-100 opacity-0 group-hover:visible invisible transition-all ease-linear duration-200">{project?.title}</h1>
 
                             <div className=" relative z-[10] mt-[-2%]  group-hover:mt-[3%]  group-hover:opacity-100 opacity-0 group-hover:visible invisible transition-all ease-linear duration-200">
-                                <Button type='button' text='See Live' isFill={true} icon={<BiCodeAlt />} />
+                                {
+                                    project?.livelink !== null && <Button type='button' text='See Live' isFill={true} icon={<BiCodeAlt />} href={project?.livelink} isNewTab={true} />
+                                }
+
                             </div>
 
                             <div className=" absolute transition-all ease-linear duration-200 invisible group-hover:visible bottom-10 group-hover:bottom-8 left-0 w-full group-hover:opacity-100 opacity-0  z-[10]">
                                 <div className=" h-32 overflow-hidden rounded-b-lg w-full z-[10] relative">
-                                    <Image src={project1} alt="project1" className=" absolute top-10 w-1/2 -rotate-12" />
-                                    <Image src={project1} alt="project1" className="absolute right-0   top-10 w-1/2 rotate-12" />
+                                    <Image src={project?.imgSrc} alt="project1" className=" absolute top-10 w-1/2 -rotate-12" />
+                                    <Image src={project?.imgSrc} alt="project1" className="absolute right-0   top-10 w-1/2 rotate-12" />
                                 </div>
                             </div>
-                        </div>
-
-                        <div className=" text-lime-400 z-[10] relative text-2xl flex items-center justify-between mt-2 ">
-                            <div className=" flex items-center gap-7">
-                                <BiLink className=" cursor-pointer hover:text-white" />
-
-                                <BiLogoGithub className=" cursor-pointer hover:text-white" />
-                            </div>
-                            <BiCodeAlt className=" cursor-pointer hover:text-white" />
                         </div>
                     </div>)
                 }

@@ -1,8 +1,9 @@
 import Link from "next/link";
 
-export default function Button({ text, icon, isFill, href, ...res }) {
+export default function Button({ text, icon, isFill, href, isNewTab, ...res }) {
     return (
         <Link href={href ? href : ''}
+            target={isNewTab && '_blank'}
             className={` ${isFill ? "bg-green-400 border border-green-400 text-black hover:bg-transparent hover:text-green-400" : "border border-green-400 hover:text-black text-green-400 hover:bg-green-400"}     text-center inline-block  transition-all ease-linear duration-100 md:py-[5px] py-1 md:px-[18px] px-3 text-[14px] md:text-base  rounded-full`}
             {...res}
         >
