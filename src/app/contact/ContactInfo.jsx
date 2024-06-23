@@ -9,7 +9,7 @@ export default function ContactInfo() {
             id: 1,
             type: "Email",
             description: "Our friendly team is here to help.",
-            value: "hello@brongobrain.com",
+            value: "bongobrain24@gmail.com",
             icon: "GoMail",
             Animation: 'fade-up'
         },
@@ -17,7 +17,7 @@ export default function ContactInfo() {
             id: 2,
             type: "Office",
             description: "Come say hello at our office HQ.",
-            value: "Rangpur, Dhaka, Bangladesh.",
+            value: "Banashree E-block, Road-05, House-42",
             icon: "GoLocation",
             Animation: 'fade-down'
         },
@@ -25,7 +25,7 @@ export default function ContactInfo() {
             id: 3,
             type: "Phone",
             description: "Mon-Fri from 8am to 5pm.",
-            value: "+8801732023548",
+            value: "+8801789247373",
             icon: "IoCallOutline",
             Animation: 'fade-up'
         }

@@ -80,7 +80,7 @@ export default function Projects() {
             <div className=" mt-10 flex flex-wrap items-center justify-center gap-14 py-10 lg:px-40">
 
                 {
-                    projects.slice(pathname === '/projects' ? 0 : 0, pathname === '/projects' ? projects.length : 3).map(project => <div key={project?.id} data-aos={project?.Animation} className=" 2xl:w-[47%] sm:w-[45%] relative group cursor-pointer ">
+                    projects.slice(pathname === '/projects' ? 0 : 0, pathname === '/projects' ? projects.length : 3).map(project => <div key={project?.id} data-aos={project?.Animation} className=" 2xl:w-[47%] sm:w-[45%] relative group cursor-pointer overflow-hidden rounded-b-xl ">
                         <div className="rounded-xl overflow-hidden">
                             <Image src={project?.imgSrc} alt="project1" className="transition-all ease-linear duration-200  group-hover:scale-110" />
                         </div>
@@ -95,7 +95,7 @@ export default function Projects() {
 
                             </div>
 
-                            <div className=" absolute transition-all ease-linear duration-200 invisible group-hover:visible bottom-10 group-hover:bottom-8 left-0 w-full group-hover:opacity-100 opacity-0  z-[10]">
+                            <div className=" absolute transition-all ease-linear duration-200 invisible group-hover:visible -bottom-5 group-hover:bottom-0 left-0 w-full group-hover:opacity-100 opacity-0  z-[10]">
                                 <div className=" h-32 overflow-hidden rounded-b-lg w-full z-[10] relative">
                                     <Image src={project?.imgSrc} alt="project1" className=" absolute top-10 w-1/2 -rotate-12" />
                                     <Image src={project?.imgSrc} alt="project1" className="absolute right-0   top-10 w-1/2 rotate-12" />

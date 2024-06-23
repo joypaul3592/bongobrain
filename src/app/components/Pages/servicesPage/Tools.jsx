@@ -53,13 +53,14 @@ export default function Tools() {
     return (
         <div className='pt-32 relative z-[10]'>
             <TitleBox tag='Technology ' title1='Tools and Frameworks ' title2='guideline For You' />
-            <div className='grid grid-cols-3 gap-5 '>
+            <div className='grid md:grid-cols-3 sm:grid-cols-2 gap-5 '>
                 <div>
                     {
                         ToolsItems?.slice(0, 3)?.map((data, index) => (
                             <div data-aos="zoom-in" key={index} className='text-white  flex items-center flex-col mt-10 h-fit ' >
                                 <div className='w-52 h-fit '>
                                     <h2>{data?.title}</h2>
+                                    <div className='h-[1px] w-full bg-green-500'></div>
                                     <div className='h-[1px] w-full  mb-5'></div>
                                     {
                                         data?.items?.map((item, itemIndex) => (
@@ -77,6 +78,7 @@ export default function Tools() {
                             <div data-aos="zoom-out" key={index} className='text-white  flex items-center flex-col mt-10 h-fit ' >
                                 <div className='w-52 h-fit '>
                                     <h2>{data?.title}</h2>
+                                    <div className='h-[1px] w-full bg-green-500'></div>
                                     <div className='h-[1px] w-full  mb-5'></div>
                                     {
                                         data?.items?.map((item, itemIndex) => (
@@ -94,6 +96,7 @@ export default function Tools() {
                             <div data-aos="zoom-in" key={index} className='text-white  flex items-center flex-col mt-10 h-fit ' >
                                 <div className='w-52 h-fit '>
                                     <h2>{data?.title}</h2>
+                                    <div className='h-[1px] w-full bg-green-500'></div>
                                     <div className='h-[1px] w-full  mb-5'></div>
                                     {
                                         data?.items?.map((item, itemIndex) => (

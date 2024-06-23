@@ -7,9 +7,10 @@ import team2 from '../../../assets/image/team/team2.jpg';
 import team3 from '../../../assets/image/team/team3.jpg';
 import team4 from '../../../assets/image/team/team4.jpg';
 import team5 from '../../../assets/image/team/team5.jpg';
-import team6 from '../../../assets/image/team/team6.jpg';
-import team7 from '../../../assets/image/team/team7.jpg';
+import team6 from '../../../assets/image/team/team6.png';
+import team7 from '../../../assets/image/team/team7.jpeg';
 import team8 from '../../../assets/image/team/team8.jpg';
+
 import TitleBox from "../../uiKit/TitleBox";
 
 
@@ -18,60 +19,62 @@ const Team = () => {
     const teamsData = [
         {
             id: 1,
-            name: 'Stacey Cooper',
-            designation: 'Software Developer',
-            text: 'As our dedicated team lead, Arif Islam guides with expertise, fostering collaboration and driving innovation, ensuring project success and client satisfaction.',
+            name: 'SHAHREAR ALAM MARUF',
+            designation: 'Project Manager',
+            text: 'Shahrear Alam Maruf is a skilled project manager and developer known for delivering high-quality projects on time and within budget.',
             img: team1
         },
         {
             id: 2,
-            name: 'John Doe',
-            designation: 'Frontend Developer',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            name: 'SANJID HASAN',
+            designation: 'RND & CTO',
+            text: 'Shanjid Hasan is the R&D and CTO, driving innovation and technology advancements.',
             img: team2
         },
         {
             id: 3,
-            name: 'Jane Smith',
-            designation: 'Backend Developer',
-            text: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+            name: 'JOY PAUl',
+            designation: 'Frontend Developer',
+            text: 'Joy Paul is a experience frontend developer, specializing in creating responsive and user-friendly web interfaces.',
             img: team3
         },
         {
             id: 4,
-            name: 'Alex Johnson',
-            designation: 'UI/UX Designer',
-            text: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+            name: 'G K ANIM',
+            designation: 'Business Executive',
+            text: 'G K Anim is a strategic and results-driven business executive with a strong track record of driving growth and innovation.',
             img: team4
         },
         {
             id: 5,
-            name: 'Emily Davis',
-            designation: 'Project Manager',
-            text: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+            name: 'TARIKUL ISLAM SHYKAT',
+            designation: 'App Developer',
+            text: 'Tarikul Islam Shykat is an innovative app developer with a talent for creating user-friendly and high-performance mobile applications.',
             img: team5
         },
         {
             id: 6,
-            name: 'Mike Brown',
-            designation: 'Quality Assurance',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            name: 'KAWSER AHMED',
+            designation: 'Backend Developer',
+            text: 'Kawser Ahmed is an experienced backend developer specializing in building robust and scalable server-side applications.',
             img: team6
         },
         {
             id: 7,
-            name: 'Amanda White',
-            designation: 'Data Scientist',
-            text: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+            name: 'TASEEN IMAM TURJO',
+            designation: 'WordPress DevelopeR',
+            text: 'Taseen Imam Turjo is a passionate and dedicated WordPress developer committed to creating visually appealing, highly functional, and user-friendly websites.',
             img: team7
         },
+
         {
             id: 8,
-            name: 'Chris Wilson',
-            designation: 'DevOps Engineer',
-            text: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+            name: 'SHARFORAZ RAHMAN SWACHA',
+            designation: 'Backend DevelopeR',
+            text: 'Sharforaz Rahman Swacha is a backend developer, specializing in server-side logic and database management.',
             img: team8
         }
+
     ];
 
     useEffect(() => {
